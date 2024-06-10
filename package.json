@@ -1,0 +1,33 @@
+{
+  "name": "omen-startup",
+  "version": "1.0.7",
+  "description": "Omen Startup is a Node.js package designed to help developers quickly initialize and manage their environment variables and project configurations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyDaddy/omen-startup.git"
+  },
+  "keywords": [
+    "startup",
+    "environment",
+    "variables",
+    "configurations",
+    "dotenv",
+    "project"
+  ],
+  "author": "soyDaddy <soydaddy@omenlist.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soyDaddy/omen-startup/issues"
+  },
+  "homepage": "https://github.com/soyDaddy/omen-startup#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "prompt": "^1.0.0"
+  }
+}
