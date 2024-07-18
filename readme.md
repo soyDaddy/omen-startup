@@ -44,7 +44,6 @@ const configSchema = {
   db_password: {
     description: 'Enter your database password',
     hidden: true,
-    replace: '*',
     required: true
   }
 };
@@ -120,7 +119,6 @@ const configSchema = {
   db_password: {
     description: 'Enter your database password',
     hidden: true,
-    replace: '*',
     required: true
   }
 };
