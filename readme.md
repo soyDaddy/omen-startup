@@ -157,12 +157,12 @@ const start = async () => {
     } else {
         startup.verifyENV({
             'Bot Settings': [
-                'TOKEN',
+                'BOTTOKEN',
                 'BOTID',
             ],
             'Other Settings': [
-                'MONGOURI',
-                'OWNERIDS'
+                'MONGO',
+                'OWNERID'
             ]
             // Your bot index here
         });
