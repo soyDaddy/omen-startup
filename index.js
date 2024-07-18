@@ -24,6 +24,7 @@ class Startup {
                 description: this.textColored(configSchema[key].description + '\n'),
                 required: configSchema[key].required || true,
                 hidden: configSchema[key].hidden || false,
+                replace: configSchema[key].hidden ? '*' : undefined,
                 before: configSchema[key].before || (value => value)
             };
         }
